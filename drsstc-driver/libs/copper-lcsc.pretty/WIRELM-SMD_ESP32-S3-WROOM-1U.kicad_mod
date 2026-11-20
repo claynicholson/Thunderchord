@@ -1,0 +1,434 @@
+(footprint "WIRELM-SMD_ESP32-S3-WROOM-1U"
+	(version 20241229)
+	(generator "copper_kicad")
+	(generator_version "1.0")
+	(layer "F.Cu")
+	(descr "ESP32-S3-WROOM-1U-N8R2 (C3013944) SMD,19.2x18mm — -103.5dBm -40℃~+85℃ 2.4GHz 20.5dBm 355mA 3V~3.6V 95mA ESP32-S3 UART、SPI、I2C、I2S、USB SMD,19.2x18mm WiFi Modules ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:005f5c9887fe4df0bcb2693bc1357a87")
+	(tags "C3013944 ESP32-S3-WROOM-1U-N8R2 LCSC JLCPCB")
+	(property "Reference" "REF**"
+		(at 0 -11.41 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WIRELM-SMD_ESP32-S3-WROOM-1U"
+		(at 0 10.7 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "ESP32-S3-WROOM-1U-N8R2 (C3013944) SMD,19.2x18mm — -103.5dBm -40℃~+85℃ 2.4GHz 20.5dBm 355mA 3V~3.6V 95mA ESP32-S3 UART、SPI、I2C、I2S、USB SMD,19.2x18mm WiFi Modules ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:005f5c9887fe4df0bcb2693bc1357a87"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -9.0002 -10.105)
+		(end -8.9502 -10.105)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center -9.4506 -9.0184)
+		(end -9.2007 -9.0184)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+	)
+	(fp_poly
+		(pts
+			(xy -9.0002 9.095)
+			(xy -9.0002 -10.1049)
+			(xy 8.9997 -10.1049)
+			(xy 8.9997 9.095)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 9.017 -9.5761)
+		(end 9.017 -10.3549)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -9 -10.3549)
+		(end -9 -9.5761)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -9 -10.3554)
+		(end 9.017 -10.3549)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 7.6662 9.1441)
+		(end 9.017 9.1441)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 9.017 9.1441)
+		(end 9.017 8.2962)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -9 8.2962)
+		(end -9 9.1441)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -9 9.1441)
+		(end -7.6662 9.1441)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -9.8552 -9.9544)
+		(end -9.6718 -9.9544)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start -9.75 -10.61)
+		(end 9.75 9.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -8.75 -8.895)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "2" smd rect
+		(at -8.75 -7.625)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "3" smd rect
+		(at -8.75 -6.355)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "4" smd rect
+		(at -8.75 -5.085)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "5" smd rect
+		(at -8.75 -3.815)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "6" smd rect
+		(at -8.75 -2.545)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "7" smd rect
+		(at -8.75 -1.275)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "8" smd rect
+		(at -8.75 -0.005)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "9" smd rect
+		(at -8.75 1.265)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "10" smd rect
+		(at -8.75 2.535)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "11" smd rect
+		(at -8.75 3.805)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "12" smd rect
+		(at -8.75 5.075)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "13" smd rect
+		(at -8.75 6.345)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "14" smd rect
+		(at -8.75 7.615)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "15" smd rect
+		(at -6.985 8.895 270)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "16" smd rect
+		(at -5.715 8.895 270)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "17" smd rect
+		(at -4.445 8.895 270)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "18" smd rect
+		(at -3.175 8.895 270)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "19" smd rect
+		(at -1.905 8.895 270)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "20" smd rect
+		(at -0.635 8.895 270)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "21" smd rect
+		(at 0.635 8.895 270)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "22" smd rect
+		(at 1.905 8.895 270)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "23" smd rect
+		(at 3.175 8.895 270)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "24" smd rect
+		(at 4.445 8.895 270)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "25" smd rect
+		(at 5.715 8.895 270)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "26" smd rect
+		(at 6.985 8.865 270)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "27" smd rect
+		(at 8.75 7.615 180)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "28" smd rect
+		(at 8.75 6.345 180)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "29" smd rect
+		(at 8.75 5.075 180)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "30" smd rect
+		(at 8.75 3.805 180)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "31" smd rect
+		(at 8.75 2.535 180)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "32" smd rect
+		(at 8.75 1.265 180)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "33" smd rect
+		(at 8.75 -0.005 180)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "34" smd rect
+		(at 8.75 -1.275 180)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "35" smd rect
+		(at 8.75 -2.545 180)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "36" smd rect
+		(at 8.75 -3.815 180)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "37" smd rect
+		(at 8.75 -5.085 180)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "38" smd rect
+		(at 8.75 -6.355 180)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "39" smd rect
+		(at 8.75 -7.625 180)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "40" smd rect
+		(at 8.75 -8.895 180)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "41" smd rect
+		(at -1.5001 -1.1749 270)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "41" smd rect
+		(at -2.9002 -1.1749 270)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "41" smd rect
+		(at -0.1001 -1.1749 270)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "41" smd rect
+		(at -0.1001 -2.5749 270)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "41" smd rect
+		(at -1.5001 -2.5749 270)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "41" smd rect
+		(at -2.9002 -2.5749 270)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "41" smd rect
+		(at -2.9002 0.2252 270)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "41" smd rect
+		(at -1.5001 0.2252 270)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "41" smd rect
+		(at -0.1001 0.2252 270)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(model "${KIPRJMOD}/libs/copper-lcsc.3dshapes/WIRELM-SMD_ESP32-S3-WROOM-1U.step"
+		(offset
+			(xyz 0 0.505 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

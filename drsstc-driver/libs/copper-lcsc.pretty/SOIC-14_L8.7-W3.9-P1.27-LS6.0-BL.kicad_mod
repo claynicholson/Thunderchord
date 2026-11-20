@@ -1,0 +1,256 @@
+(footprint "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
+	(version 20241229)
+	(generator "copper_kicad")
+	(generator_version "1.0")
+	(layer "F.Cu")
+	(descr "SN74HCT74DR (C352961) SOIC-14 — -40℃~+85℃ 0ns 1 14ns 18ns@5.5V,50pF 2 3pF 4.5V~5.5V 46MHz 4mA 4mA 4uA 74HCT Series Asynchronous Complementary D-Type Ris | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:0f2364c02f094100b1b3205c9d829099")
+	(tags "C352961 SN74HCT74DR LCSC JLCPCB")
+	(property "Reference" "REF**"
+		(at 0 -4.69 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
+		(at 0 4.69 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SN74HCT74DR (C352961) SOIC-14 — -40℃~+85℃ 0ns 1 14ns 18ns@5.5V,50pF 2 3pF 4.5V~5.5V 46MHz 4mA 4mA 4uA 74HCT Series Asynchronous Complementary D-Type Ris | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:0f2364c02f094100b1b3205c9d829099"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -4.3251 3)
+		(end -4.2751 3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center -4.3251 3)
+		(end -4.2751 3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center -3.81 3.4)
+		(end -3.6599 3.4)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+	)
+	(fp_circle
+		(center -3.81 2.0371)
+		(end -3.6599 2.0371)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+	)
+	(fp_poly
+		(pts
+			(xy -4.325 1.95)
+			(xy -4.325 -1.95)
+			(xy 4.325 -1.95)
+			(xy 4.325 1.95)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center -3.81 0.7691)
+		(end -3.6599 0.7691)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -4.5494 2.7691)
+		(end -4.3993 2.7691)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -4.5494 2.7691)
+		(end -4.3993 2.7691)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -3.81 0.7691)
+		(end -3.6599 0.7691)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start -4.3815 -1.397)
+		(end 4.3815 1.397)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start -4.64 -3.89)
+		(end 4.64 3.89)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -3.81 2.619)
+		(size 0.574 2.038)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "2" smd oval
+		(at -2.54 2.619)
+		(size 0.574 2.038)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "3" smd oval
+		(at -1.27 2.619)
+		(size 0.574 2.038)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "4" smd oval
+		(at 0 2.619)
+		(size 0.574 2.038)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "5" smd oval
+		(at 1.27 2.619)
+		(size 0.574 2.038)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "6" smd oval
+		(at 2.54 2.619)
+		(size 0.574 2.038)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "7" smd oval
+		(at 3.81 2.619)
+		(size 0.574 2.038)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "8" smd oval
+		(at 3.81 -2.619)
+		(size 0.574 2.038)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "9" smd oval
+		(at 2.54 -2.619)
+		(size 0.574 2.038)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "10" smd oval
+		(at 1.27 -2.619)
+		(size 0.574 2.038)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "11" smd oval
+		(at 0 -2.619)
+		(size 0.574 2.038)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "12" smd oval
+		(at -1.27 -2.619)
+		(size 0.574 2.038)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "13" smd oval
+		(at -2.54 -2.619)
+		(size 0.574 2.038)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "14" smd oval
+		(at -3.81 -2.619)
+		(size 0.574 2.038)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(model "${KIPRJMOD}/libs/copper-lcsc.3dshapes/SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL.step"
+		(offset
+			(xyz 0 0 0.0994)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

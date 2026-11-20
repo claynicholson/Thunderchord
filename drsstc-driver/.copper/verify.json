@@ -1,0 +1,277 @@
+{
+ "erc": {
+  "ts": "2026-11-17T14:34:04",
+  "revision": "c525e46878b0d484",
+  "signatures": [
+   "/|endpoint_off_grid|Symbol pin or wire end off connection grid|Horizontal Wire, ",
+   "/|endpoint_off_grid|Symbol pin or wire end off connection grid|Symbol #PWR Pin 1 [Power input, Line]",
+   "/|endpoint_off_grid|Symbol pin or wire end off connection grid|Symbol D6 Pin 2 [K2, Passive, Line]"
+  ],
+  "messages": {
+   "/|endpoint_off_grid|Symbol pin or wire end off connection grid|Horizontal Wire, ": "Symbol pin or wire end off connection grid",
+   "/|endpoint_off_grid|Symbol pin or wire end off connection grid|Symbol #PWR Pin 1 [Power input, Line]": "Symbol pin or wire end off connection grid \u2014 #PWR123.1",
+   "/|endpoint_off_grid|Symbol pin or wire end off connection grid|Symbol D6 Pin 2 [K2, Passive, Line]": "Symbol pin or wire end off connection grid \u2014 D6.2"
+  },
+  "errors": 0,
+  "warnings": 3,
+  "excluded": 0,
+  "top": [
+   {
+    "severity": "warning",
+    "type": "endpoint_off_grid",
+    "message": "Symbol pin or wire end off connection grid",
+    "fix": "cosmetic: an item is off the 1.27 mm connection grid \u2014 sch_apply move it onto the grid so connections can't be missed"
+   },
+   {
+    "severity": "warning",
+    "type": "endpoint_off_grid",
+    "message": "Symbol pin or wire end off connection grid \u2014 #PWR123.1",
+    "fix": "cosmetic: an item is off the 1.27 mm connection grid \u2014 sch_apply move it onto the grid so connections can't be missed"
+   },
+   {
+    "severity": "warning",
+    "type": "endpoint_off_grid",
+    "message": "Symbol pin or wire end off connection grid \u2014 D6.2",
+    "fix": "cosmetic: an item is off the 1.27 mm connection grid \u2014 sch_apply move it onto the grid so connections can't be missed"
+   }
+  ]
+ },
+ "drc": {
+  "signatures": [
+   "violations|silk_edge_clearance|Silkscreen clipped by board edge|Segment of J2 on F.Silkscreen|Segment on Edge.Cuts",
+   "violations|silk_edge_clearance|Silkscreen clipped by board edge|Segment of J2 on F.Silkscreen|Segment on Edge.Cuts",
+   "violations|silk_edge_clearance|Silkscreen clipped by board edge|Segment of U3 on F.Silkscreen|Segment on Edge.Cuts",
+   "violations|silk_edge_clearance|Silkscreen clipped by board edge|Segment of U3 on F.Silkscreen|Segment on Edge.Cuts",
+   "violations|silk_edge_clearance|Silkscreen clipped by board edge|Segment of U3 on F.Silkscreen|Segment on Edge.Cuts",
+   "violations|silk_edge_clearance|Silkscreen clipped by board edge|Segment of U2 on F.Silkscreen|Segment on Edge.Cuts",
+   "violations|silk_edge_clearance|Silkscreen clipped by board edge|Segment of U2 on F.Silkscreen|Segment on Edge.Cuts",
+   "violations|silk_edge_clearance|Silkscreen clipped by board edge|Segment of U2 on F.Silkscreen|Segment on Edge.Cuts",
+   "violations|silk_edge_clearance|Silkscreen clipped by board edge|Segment of J1 on F.Silkscreen|Segment on Edge.Cuts",
+   "violations|silk_edge_clearance|Silkscreen clipped by board edge|Segment of J1 on F.Silkscreen|Segment on Edge.Cuts",
+   "violations|silk_over_copper|Silkscreen clipped by solder mask|PTH pad 1 [/VIN_24] of J10|Segment of J10 on F.Silkscreen",
+   "violations|silk_over_copper|Silkscreen clipped by solder mask|PTH pad 1 [/VIN_24] of J10|Segment of J10 on F.Silkscreen",
+   "violations|silk_over_copper|Silkscreen clipped by solder mask|Pad 2 [GND] of R28 on F.Cu|Reference field of R27",
+   "violations|silk_over_copper|Silkscreen clipped by solder mask|Pad 1 [/OCD_RECT] of R42 on F.Cu|Reference field of R45",
+   "violations|silk_overlap|Silkscreen clearance|Reference field of R16|Segment of J10 on F.Silkscreen",
+   "violations|silk_overlap|Silkscreen clearance|Reference field of C15|Segment of J5 on F.Silkscreen",
+   "violations|silk_overlap|Silkscreen clearance|Reference field of C15|Segment of J5 on F.Silkscreen",
+   "violations|silk_overlap|Silkscreen clearance|Arc of U7 on F.Silkscreen|Reference field of U7",
+   "violations|silk_overlap|Silkscreen clearance|Reference field of R45|Segment of R42 on F.Silkscreen",
+   "violations|silk_overlap|Silkscreen clearance|Reference field of R27|Segment of R28 on F.Silkscreen",
+   "violations|silk_overlap|Silkscreen clearance|PCB text 'DRV B' on B.Silkscreen|Segment on B.Silkscreen",
+   "violations|text_thickness|Text thickness out of range (rule 'Copper jlc: silkscreen text' min thickness 0.1500 mm; actual 0.1350 mm)|PCB text '24 V IN  14 A GATE DRIVE' on B.Silkscreen",
+   "violations|text_thickness|Text thickness out of range (rule 'Copper jlc: silkscreen text' min thickness 0.1500 mm; actual 0.1350 mm)|PCB text 'ZERO CURRENT SWITCHING' on B.Silkscreen",
+   "violations|text_thickness|Text thickness out of range (rule 'Copper jlc: silkscreen text' min thickness 0.1500 mm; actual 0.1350 mm)|PCB text 'BLE USB TRS FIBRE MIDI' on B.Silkscreen",
+   "violations|track_dangling|Track has unconnected end|Track [/USB_CC2] on F.Cu, ",
+   "violations|track_dangling|Track has unconnected end|Track [/INT_LIM] on F.Cu, ",
+   "violations|track_dangling|Track has unconnected end|Track [/OCD_CMP] on F.Cu, ",
+   "violations|track_dangling|Track has unconnected end|Track [/OCD_CMP] on F.Cu, ",
+   "violations|track_dangling|Track has unconnected end|Track [/OCD_OK] on F.Cu, "
+  ],
+  "messages": {
+   "violations|silk_edge_clearance|Silkscreen clipped by board edge|Segment of J2 on F.Silkscreen|Segment on Edge.Cuts": "Silkscreen clipped by board edge",
+   "violations|silk_edge_clearance|Silkscreen clipped by board edge|Segment of U3 on F.Silkscreen|Segment on Edge.Cuts": "Silkscreen clipped by board edge",
+   "violations|silk_edge_clearance|Silkscreen clipped by board edge|Segment of U2 on F.Silkscreen|Segment on Edge.Cuts": "Silkscreen clipped by board edge",
+   "violations|silk_edge_clearance|Silkscreen clipped by board edge|Segment of J1 on F.Silkscreen|Segment on Edge.Cuts": "Silkscreen clipped by board edge",
+   "violations|silk_over_copper|Silkscreen clipped by solder mask|PTH pad 1 [/VIN_24] of J10|Segment of J10 on F.Silkscreen": "Silkscreen clipped by solder mask \u2014 J10.1",
+   "violations|silk_over_copper|Silkscreen clipped by solder mask|Pad 2 [GND] of R28 on F.Cu|Reference field of R27": "Silkscreen clipped by solder mask \u2014 R28.2",
+   "violations|silk_over_copper|Silkscreen clipped by solder mask|Pad 1 [/OCD_RECT] of R42 on F.Cu|Reference field of R45": "Silkscreen clipped by solder mask \u2014 R42.1",
+   "violations|silk_overlap|Silkscreen clearance|Reference field of R16|Segment of J10 on F.Silkscreen": "Silkscreen clearance",
+   "violations|silk_overlap|Silkscreen clearance|Reference field of C15|Segment of J5 on F.Silkscreen": "Silkscreen clearance",
+   "violations|silk_overlap|Silkscreen clearance|Arc of U7 on F.Silkscreen|Reference field of U7": "Silkscreen clearance",
+   "violations|silk_overlap|Silkscreen clearance|Reference field of R45|Segment of R42 on F.Silkscreen": "Silkscreen clearance",
+   "violations|silk_overlap|Silkscreen clearance|Reference field of R27|Segment of R28 on F.Silkscreen": "Silkscreen clearance",
+   "violations|silk_overlap|Silkscreen clearance|PCB text 'DRV B' on B.Silkscreen|Segment on B.Silkscreen": "Silkscreen clearance",
+   "violations|text_thickness|Text thickness out of range (rule 'Copper jlc: silkscreen text' min thickness 0.1500 mm; actual 0.1350 mm)|PCB text '24 V IN  14 A GATE DRIVE' on B.Silkscreen": "Text thickness out of range (rule 'Copper jlc: silkscreen text' min thickness 0.1500 mm; actual 0.1350 mm)",
+   "violations|text_thickness|Text thickness out of range (rule 'Copper jlc: silkscreen text' min thickness 0.1500 mm; actual 0.1350 mm)|PCB text 'ZERO CURRENT SWITCHING' on B.Silkscreen": "Text thickness out of range (rule 'Copper jlc: silkscreen text' min thickness 0.1500 mm; actual 0.1350 mm)",
+   "violations|text_thickness|Text thickness out of range (rule 'Copper jlc: silkscreen text' min thickness 0.1500 mm; actual 0.1350 mm)|PCB text 'BLE USB TRS FIBRE MIDI' on B.Silkscreen": "Text thickness out of range (rule 'Copper jlc: silkscreen text' min thickness 0.1500 mm; actual 0.1350 mm)",
+   "violations|track_dangling|Track has unconnected end|Track [/USB_CC2] on F.Cu, ": "Track has unconnected end",
+   "violations|track_dangling|Track has unconnected end|Track [/INT_LIM] on F.Cu, ": "Track has unconnected end",
+   "violations|track_dangling|Track has unconnected end|Track [/OCD_CMP] on F.Cu, ": "Track has unconnected end",
+   "violations|track_dangling|Track has unconnected end|Track [/OCD_OK] on F.Cu, ": "Track has unconnected end"
+  },
+  "top": [
+   {
+    "severity": "warning",
+    "type": "silk_edge_clearance",
+    "message": "Silkscreen clipped by board edge",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_edge_clearance",
+    "message": "Silkscreen clipped by board edge",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_edge_clearance",
+    "message": "Silkscreen clipped by board edge",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_edge_clearance",
+    "message": "Silkscreen clipped by board edge",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_edge_clearance",
+    "message": "Silkscreen clipped by board edge",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_edge_clearance",
+    "message": "Silkscreen clipped by board edge",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_edge_clearance",
+    "message": "Silkscreen clipped by board edge",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_edge_clearance",
+    "message": "Silkscreen clipped by board edge",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_edge_clearance",
+    "message": "Silkscreen clipped by board edge",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_edge_clearance",
+    "message": "Silkscreen clipped by board edge",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_over_copper",
+    "message": "Silkscreen clipped by solder mask \u2014 J10.1",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_over_copper",
+    "message": "Silkscreen clipped by solder mask \u2014 J10.1",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_over_copper",
+    "message": "Silkscreen clipped by solder mask \u2014 R28.2",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_over_copper",
+    "message": "Silkscreen clipped by solder mask \u2014 R42.1",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_overlap",
+    "message": "Silkscreen clearance",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_overlap",
+    "message": "Silkscreen clearance",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_overlap",
+    "message": "Silkscreen clearance",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_overlap",
+    "message": "Silkscreen clearance",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_overlap",
+    "message": "Silkscreen clearance",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_overlap",
+    "message": "Silkscreen clearance",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "silk_overlap",
+    "message": "Silkscreen clearance",
+    "fix": "cosmetic: JLC clips silkscreen off pads \u2014 usually waivable; move refdes text if it becomes unreadable"
+   },
+   {
+    "severity": "warning",
+    "type": "text_thickness",
+    "message": "Text thickness out of range (rule 'Copper jlc: silkscreen text' min thickness 0.1500 mm; actual 0.1350 mm)",
+    "fix": "make silkscreen text \u2265 1.0 mm high and \u2265 0.15 mm thick so JLC can print it"
+   },
+   {
+    "severity": "warning",
+    "type": "text_thickness",
+    "message": "Text thickness out of range (rule 'Copper jlc: silkscreen text' min thickness 0.1500 mm; actual 0.1350 mm)",
+    "fix": "make silkscreen text \u2265 1.0 mm high and \u2265 0.15 mm thick so JLC can print it"
+   },
+   {
+    "severity": "warning",
+    "type": "text_thickness",
+    "message": "Text thickness out of range (rule 'Copper jlc: silkscreen text' min thickness 0.1500 mm; actual 0.1350 mm)",
+    "fix": "make silkscreen text \u2265 1.0 mm high and \u2265 0.15 mm thick so JLC can print it"
+   },
+   {
+    "severity": "warning",
+    "type": "track_dangling",
+    "message": "Track has unconnected end",
+    "fix": "delete the dangling via/track stub (it does nothing and can act as an antenna): pcb_edit(ops=[{\"op\":\"delete\",\"uuids\":[\"ad9b6c40-ff8e-4c5d-8cad-86dc30db57c9\"]}])"
+   },
+   {
+    "severity": "warning",
+    "type": "track_dangling",
+    "message": "Track has unconnected end",
+    "fix": "delete the dangling via/track stub (it does nothing and can act as an antenna): pcb_edit(ops=[{\"op\":\"delete\",\"uuids\":[\"b634b7c6-87a2-4482-bc0f-cea5bbee8fc7\"]}])"
+   },
+   {
+    "severity": "warning",
+    "type": "track_dangling",
+    "message": "Track has unconnected end",
+    "fix": "delete the dangling via/track stub (it does nothing and can act as an antenna): pcb_edit(ops=[{\"op\":\"delete\",\"uuids\":[\"74db0323-7045-4597-be11-cfbf2e39d4e4\"]}])"
+   },
+   {
+    "severity": "warning",
+    "type": "track_dangling",
+    "message": "Track has unconnected end",
+    "fix": "delete the dangling via/track stub (it does nothing and can act as an antenna): pcb_edit(ops=[{\"op\":\"delete\",\"uuids\":[\"c873b966-5ba3-4efb-b4a2-4bd9765b6c84\"]}])"
+   },
+   {
+    "severity": "warning",
+    "type": "track_dangling",
+    "message": "Track has unconnected end",
+    "fix": "delete the dangling via/track stub (it does nothing and can act as an antenna): pcb_edit(ops=[{\"op\":\"delete\",\"uuids\":[\"6890e473-1b1e-459b-a705-362ef1cc0568\"]}])"
+   }
+  ],
+  "ts": "2026-11-17T14:46:11",
+  "revision": "1fdc9457bd5d2182",
+  "source": "pcb",
+  "errors": 0,
+  "warnings": 21,
+  "unconnected": 0,
+  "parity": 0
+ }
+}

@@ -1,0 +1,253 @@
+(footprint "COMM-TH_PLR135-T10"
+	(version 20241229)
+	(generator "copper_kicad")
+	(generator_version "1.0")
+	(layer "F.Cu")
+	(descr "PLR135/T10 (C133279) Plugin — Plugin Fiber Optical Transceivers ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:1e69d524ed5945cba850afd48d667727")
+	(tags "C133279 PLR135/T10 LCSC JLCPCB")
+	(property "Reference" "REF**"
+		(at 0 -10.86 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "COMM-TH_PLR135-T10"
+		(at 0 4.85 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PLR135/T10 (C133279) Plugin — Plugin Fiber Optical Transceivers ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:1e69d524ed5945cba850afd48d667727"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 4.8501 3.6999)
+		(end 4.9001 3.6999)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+	)
+	(fp_poly
+		(pts
+			(xy 4.064 -2.54)
+			(xy 4.064 -8.636)
+			(xy -4.064 -8.636)
+			(xy -4.064 -2.54)
+			(xy -3.81 -2.54)
+			(xy -3.81 -8.128)
+			(xy 3.81 -8.128)
+			(xy 3.81 -2.54)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+	)
+	(fp_poly
+		(pts
+			(xy -4.85 -9.8)
+			(xy 4.85 -9.8)
+			(xy 4.85 3.7)
+			(xy -4.85 3.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -3.9 -9.1)
+		(end 3.9006 -9.1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 3.9006 -9.1)
+		(end 3.9006 -9.7098)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -4.85 -9.71)
+		(end -3.9 -9.71)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -3.9 -9.71)
+		(end -3.9 -9.1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 3.9006 -9.7098)
+		(end 4.8506 -9.7098)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -4.064 -2.54)
+		(end -4.064 -8.636)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -4.064 -8.636)
+		(end 4.064 -8.636)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 4.064 -8.636)
+		(end 4.064 -2.54)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 4.85 3.8)
+		(end -4.85 3.8)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 4.85 -9.71)
+		(end 4.85 3.8)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -4.85 3.8)
+		(end -4.85 -9.71)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start -5.1 -10.06)
+		(end 5.11 4.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 1.31)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1.31)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "3" thru_hole circle
+		(at -2.54 1.31)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 -1.31)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "5" thru_hole circle
+		(at -2.54 -1.31)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(model "${KIPRJMOD}/libs/copper-lcsc.3dshapes/COMM-TH_PLR135-T10.step"
+		(offset
+			(xyz 0.005 3.05 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

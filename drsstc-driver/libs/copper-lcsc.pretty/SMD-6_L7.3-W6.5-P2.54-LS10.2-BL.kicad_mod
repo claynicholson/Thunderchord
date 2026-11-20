@@ -1,0 +1,202 @@
+(footprint "SMD-6_L7.3-W6.5-P2.54-LS10.2-BL"
+	(version 20241229)
+	(generator "copper_kicad")
+	(generator_version "1.0")
+	(layer "F.Cu")
+	(descr "H11L1S(TA) (C78589) SOP-6-2.54mm — -55℃~+100℃ 1 1.15V 1.6mA 1Mbit/s 250mW 3V~15V 50mA 5kV 60mA 6V DC SOP-6-2.54mm Logic Output Optoisolators ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:087c15a829b84cb785903f482bfb6e6b")
+	(tags "C78589 H11L1S(TA) LCSC JLCPCB")
+	(property "Reference" "REF**"
+		(at 0 -6.73 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMD-6_L7.3-W6.5-P2.54-LS10.2-BL"
+		(at 0 6.73 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "H11L1S(TA) (C78589) SOP-6-2.54mm — -55℃~+100℃ 1 1.15V 1.6mA 1Mbit/s 250mW 3V~15V 50mA 5kV 60mA 6V DC SOP-6-2.54mm Logic Output Optoisolators ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:087c15a829b84cb785903f482bfb6e6b"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -3.65 5.08)
+		(end -3.6 5.08)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+	)
+	(fp_poly
+		(pts
+			(xy -3.65 3.25)
+			(xy -3.65 -3.25)
+			(xy 3.65 -3.25)
+			(xy 3.65 3.25)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -3.6462 2.8514)
+		(end -3.6462 -2.8514)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -3.6462 -2.8514)
+		(end 3.6462 -2.8514)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 3.6462 -2.8514)
+		(end 3.6462 2.8514)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 3.6462 2.8514)
+		(end -3.6462 2.8514)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -2.921 2.159)
+		(end -2.7211 2.159)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -3.81 4.318)
+		(end -3.6599 4.318)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -2.54 5.08)
+		(end -2.2901 5.08)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+	)
+	(fp_rect
+		(start -3.9 -5.93)
+		(end 3.9 5.93)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 4.38)
+		(size 1.4224 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "2" smd rect
+		(at 0 4.38)
+		(size 1.4224 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "3" smd rect
+		(at 2.54 4.38)
+		(size 1.4224 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "4" smd rect
+		(at 2.54 -4.38)
+		(size 1.4224 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "5" smd rect
+		(at 0 -4.38)
+		(size 1.4224 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "6" smd rect
+		(at -2.54 -4.38)
+		(size 1.4224 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(model "${KIPRJMOD}/libs/copper-lcsc.3dshapes/SMD-6_L7.3-W6.5-P2.54-LS10.2-BL.step"
+		(offset
+			(xyz 0 0 0.1063)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

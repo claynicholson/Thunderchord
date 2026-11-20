@@ -1,0 +1,235 @@
+(footprint "FUSE-TH_BD3.6-L10.0-P14.00-D0.6"
+	(version 20241229)
+	(generator "copper_kicad")
+	(generator_version "1.0")
+	(layer "F.Cu")
+	(descr "31TD T2A250V (C529609) Plugin,D4xL11mm — -55℃~+125℃ 10mm 21.1 250V 2A 3.6mm 35A Glass Tube Fuse 插件,D4xL11mm Disposable fuses ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:12f5eb8cc79643c8a8d80548add619b7")
+	(tags "C529609 31TD T2A250V LCSC JLCPCB")
+	(property "Reference" "REF**"
+		(at 0 -2.95 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FUSE-TH_BD3.6-L10.0-P14.00-D0.6"
+		(at 0 2.95 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "31TD T2A250V (C529609) Plugin,D4xL11mm — -55℃~+125℃ 10mm 21.1 250V 2A 3.6mm 35A Glass Tube Fuse 插件,D4xL11mm Disposable fuses ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:12f5eb8cc79643c8a8d80548add619b7"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -7.8001 1.8)
+		(end -7.7501 1.8)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+	)
+	(fp_poly
+		(pts
+			(xy -5 1.8)
+			(xy -5 -1.8)
+			(xy 5 -1.8)
+			(xy 5 1.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 6.369 0)
+		(end 5.2 0.0068)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -6.3687 0)
+		(end -5.295 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -5.295 0)
+		(end -5.2 0.095)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -2.667 -1.397)
+		(end 2.54 -1.397)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -2.667 1.397)
+		(end 2.54 1.397)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -2.667 -1.9)
+		(end -2.667 1.9)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -5.2 -1.9)
+		(end -5.2 1.9)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.54 -1.9)
+		(end 2.54 1.9)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 5.2 -1.9)
+		(end 5.2 1.9)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -5.2 -1.9)
+		(end -2.667 -1.9)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -5.2 1.9)
+		(end -2.667 1.9)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.54 -1.9)
+		(end 5.207 -1.9)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.54 1.9)
+		(end 5.2 1.9)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start -8.66 -2.15)
+		(end 8.66 2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -7.5001 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5001 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(model "${KIPRJMOD}/libs/copper-lcsc.3dshapes/FUSE-TH_BD3.6-L10.0-P14.00-D0.6.step"
+		(offset
+			(xyz -5.5 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

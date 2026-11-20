@@ -1,0 +1,176 @@
+(footprint "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+	(version 20241229)
+	(generator "copper_kicad")
+	(generator_version "1.0")
+	(layer "F.Cu")
+	(descr "XC61CC2702MR (C216611) SOT-23 — -40℃~+85℃ 2.7V 30us 700mV~10V 700nA No Push-pull Voltage Detector SOT-23 Supervisor and Reset ICs ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:b3b82869fa924bae820e3a6cfb44d689")
+	(tags "C216611 XC61CC2702MR LCSC JLCPCB")
+	(property "Reference" "REF**"
+		(at 0 -2.59 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+		(at 0 2.59 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "XC61CC2702MR (C216611) SOT-23 — -40℃~+85℃ 2.7V 30us 700mV~10V 700nA No Push-pull Voltage Detector SOT-23 Supervisor and Reset ICs ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:b3b82869fa924bae820e3a6cfb44d689"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 1.3999 1.46)
+		(end 1.4499 1.46)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center 1.6511 0.95)
+		(end 1.7512 0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+	)
+	(fp_poly
+		(pts
+			(xy -0.8001 1.46)
+			(xy -0.8001 -1.46)
+			(xy 0.7999 -1.46)
+			(xy 0.7999 1.46)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 0.8761 -1.5362)
+		(end -0.8763 -1.5362)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -0.8763 -1.5362)
+		(end -0.8763 -0.4946)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.8761 1.5362)
+		(end -0.8763 1.5362)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -0.8763 1.5362)
+		(end -0.8763 0.4946)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.8761 -0.4554)
+		(end 0.8761 0.4554)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start -2.03 -1.79)
+		(end 2.03 1.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.2351 0.95)
+		(size 1.07 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "2" smd rect
+		(at 1.2351 -0.95)
+		(size 1.07 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "3" smd rect
+		(at -1.2351 0)
+		(size 1.07 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(model "${KIPRJMOD}/libs/copper-lcsc.3dshapes/SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

@@ -1,0 +1,196 @@
+(footprint "DC-IN-TH_HC-DC-005-2.0T"
+	(version 20241229)
+	(generator "copper_kicad")
+	(generator_version "1.0")
+	(layer "F.Cu")
+	(descr "HC-DC-005-2.0T (C3010533) Plugin — -25℃~+70℃ 2A 2mm 30V 6.4mm DC Power Jack Right Angle Plugin DC Power Connectors ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:f03aeff86f454629a05034513b7ebea7")
+	(tags "C3010533 HC-DC-005-2.0T LCSC JLCPCB")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DC-IN-TH_HC-DC-005-2.0T"
+		(at 0 11.7 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "HC-DC-005-2.0T (C3010533) Plugin — -25℃~+70℃ 2A 2mm 30V 6.4mm DC Power Jack Right Angle Plugin DC Power Connectors ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:f03aeff86f454629a05034513b7ebea7"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -6.8499 -3.85)
+		(end -6.7999 -3.85)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+	)
+	(fp_poly
+		(pts
+			(xy -6.7499 10.2999)
+			(xy -6.7499 10.4999)
+			(xy 2.0501 10.4999)
+			(xy 2.0501 10.2999)
+			(xy 2.3001 10.2999)
+			(xy 2.3001 10.7999)
+			(xy -6.9999 10.7999)
+			(xy -6.9999 10.2999)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+	)
+	(fp_poly
+		(pts
+			(xy 2.1501 10.6499)
+			(xy -6.8499 10.6499)
+			(xy -6.8499 -3.8501)
+			(xy 2.1501 -3.8501)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 2.1501 -2.0812)
+		(end 2.1501 -3.8501)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.1501 -3.8501)
+		(end -1.3565 -3.8501)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -3.7433 -3.8501)
+		(end -6.8499 -3.8501)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -6.8499 -3.8501)
+		(end -6.8499 10.6499)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -6.8499 10.6499)
+		(end 2.1501 10.6499)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.1501 10.6499)
+		(end 2.1501 1.881)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start -7.1 -4.2)
+		(end 3.4 10.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -2.35 -3.15)
+		(size 3.5 1.6)
+		(drill oval 2.9 0.9)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "2" thru_hole oval
+		(at -2.35 3.15)
+		(size 3.5 1.6)
+		(drill oval 2.9 0.9)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "3" thru_hole oval
+		(at 2.35 -0.1002 270)
+		(size 3.5 1.6)
+		(drill oval 2.8 0.9)
+		(layers "*.Cu" "*.Mask")
+	)
+	(model "${KIPRJMOD}/libs/copper-lcsc.3dshapes/DC-IN-TH_HC-DC-005-2.0T.step"
+		(offset
+			(xyz -2.35 -10.65 5.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

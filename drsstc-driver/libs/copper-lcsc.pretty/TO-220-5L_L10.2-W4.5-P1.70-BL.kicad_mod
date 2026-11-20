@@ -1,0 +1,216 @@
+(footprint "TO-220-5L_L10.2-W4.5-P1.70-BL"
+	(version 20241229)
+	(generator "copper_kicad")
+	(generator_version "1.0")
+	(layer "F.Cu")
+	(descr "IXDI614CI (C1549553) TO-220-5 — -40℃~+125℃ 1 10uA 14A 14A 18ns 25ns 3V 4.5V~35V 50ns 50ns 800mV IGBT、MOSFET Low Side TO-220-5 Gate Drivers ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:178e94b58dfd49baa2ea4eb0c03b906c")
+	(tags "C1549553 IXDI614CI LCSC JLCPCB")
+	(property "Reference" "REF**"
+		(at 0 -4.23 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-220-5L_L10.2-W4.5-P1.70-BL"
+		(at 0 2.71 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "IXDI614CI (C1549553) TO-220-5 — -40℃~+125℃ 1 10uA 14A 14A 18ns 25ns 3V 4.5V~35V 50ns 50ns 800mV IGBT、MOSFET Low Side TO-220-5 Gate Drivers ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:178e94b58dfd49baa2ea4eb0c03b906c"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -5.1001 1.505)
+		(end -5.0501 1.505)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center -3.3701 0.92)
+		(end -3.1702 0.92)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+	)
+	(fp_poly
+		(pts
+			(xy 5.3341 -2.41)
+			(xy 5.3341 -3.1741)
+			(xy -5.299 -3.1741)
+			(xy -5.3 -3.1751)
+			(xy -5.3 -2.36)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+	)
+	(fp_poly
+		(pts
+			(xy -5.1 1.505)
+			(xy -5.1 -2.995)
+			(xy 5.1 -2.995)
+			(xy 5.1 1.505)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 5.29 -2.38)
+		(end -5.31 -2.38)
+		(stroke
+			(width 0.2581)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -5.3 1.6549)
+		(end 5.3001 1.6549)
+		(stroke
+			(width 0.2581)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -5.3 -3.1751)
+		(end -5.3 1.6549)
+		(stroke
+			(width 0.2581)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 5.3001 -3.1751)
+		(end -5.3 -3.1751)
+		(stroke
+			(width 0.2581)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 5.3341 1.6559)
+		(end 5.3341 -3.1741)
+		(stroke
+			(width 0.2581)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -4.1399 0.92)
+		(end -4.0129 0.92)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start -5.56 -3.43)
+		(end 5.59 1.91)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.4 0)
+		(size 1.5 1.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "2" thru_hole circle
+		(at -1.7 0)
+		(size 1.5 1.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "4" thru_hole circle
+		(at 1.7 0)
+		(size 1.5 1.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "5" thru_hole circle
+		(at 3.4 0)
+		(size 1.5 1.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(model "${KIPRJMOD}/libs/copper-lcsc.3dshapes/TO-220-5L_L10.2-W4.5-P1.70-BL.step"
+		(offset
+			(xyz 0 2.82 6.23)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

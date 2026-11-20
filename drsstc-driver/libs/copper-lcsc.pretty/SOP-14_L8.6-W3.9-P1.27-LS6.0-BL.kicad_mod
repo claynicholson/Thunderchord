@@ -1,0 +1,242 @@
+(footprint "SOP-14_L8.6-W3.9-P1.27-LS6.0-BL"
+	(version 20241229)
+	(generator "copper_kicad")
+	(generator_version "1.0")
+	(layer "F.Cu")
+	(descr "74AHCT00D,118 (C554462) SOP-14 — -40℃~+125℃ 2 2V 2uA 3.7V、4.4V 4 4.5V~5.5V 550mV 7.9ns@5V,50pF 74AHCT Series 800mV 8mA 8mA NAND Gate SOP-14 Logic Gates R | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:e69ddeebe4e34357ab0ade32765aa5fb")
+	(tags "C554462 74AHCT00D,118 LCSC JLCPCB")
+	(property "Reference" "REF**"
+		(at 0 -4.77 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOP-14_L8.6-W3.9-P1.27-LS6.0-BL"
+		(at 0 4.77 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "74AHCT00D,118 (C554462) SOP-14 — -40℃~+125℃ 2 2V 2uA 3.7V、4.4V 4 4.5V~5.5V 550mV 7.9ns@5V,50pF 74AHCT Series 800mV 8mA 8mA NAND Gate SOP-14 Logic Gates R | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:e69ddeebe4e34357ab0ade32765aa5fb"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -4.3251 3)
+		(end -4.2751 3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center -3.81 3.4)
+		(end -3.6599 3.4)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+	)
+	(fp_poly
+		(pts
+			(xy -4.325 1.95)
+			(xy -4.325 -1.95)
+			(xy 4.325 -1.95)
+			(xy 4.325 1.95)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -4.4012 1.5214)
+		(end -4.4012 -1.5214)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -4.4012 -1.5214)
+		(end 4.4012 -1.5214)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 4.4012 -1.5214)
+		(end 4.4012 1.5214)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 4.4012 1.5214)
+		(end -4.4012 1.5214)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -3.81 0.7691)
+		(end -3.6599 0.7691)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -4.5598 2.7338)
+		(end -4.4097 2.7338)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start -4.66 -3.97)
+		(end 4.66 3.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -3.81 2.7338)
+		(size 0.595 1.9675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "2" smd oval
+		(at -2.54 2.7338)
+		(size 0.595 1.9675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "3" smd oval
+		(at -1.27 2.7338)
+		(size 0.595 1.9675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "4" smd oval
+		(at 0 2.7338)
+		(size 0.595 1.9675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "5" smd oval
+		(at 1.27 2.7338)
+		(size 0.595 1.9675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "6" smd oval
+		(at 2.54 2.7338)
+		(size 0.595 1.9675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "7" smd oval
+		(at 3.81 2.7338)
+		(size 0.595 1.9675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "8" smd oval
+		(at 3.81 -2.7338)
+		(size 0.595 1.9675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "9" smd oval
+		(at 2.54 -2.7338)
+		(size 0.595 1.9675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "10" smd oval
+		(at 1.27 -2.7338)
+		(size 0.595 1.9675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "11" smd oval
+		(at 0 -2.7338)
+		(size 0.595 1.9675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "12" smd oval
+		(at -1.27 -2.7338)
+		(size 0.595 1.9675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "13" smd oval
+		(at -2.54 -2.7338)
+		(size 0.595 1.9675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "14" smd oval
+		(at -3.81 -2.7338)
+		(size 0.595 1.9675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(model "${KIPRJMOD}/libs/copper-lcsc.3dshapes/SOP-14_L8.6-W3.9-P1.27-LS6.0-BL.step"
+		(offset
+			(xyz 0 0 0.825)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

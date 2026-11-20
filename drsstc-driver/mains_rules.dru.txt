@@ -1,0 +1,9 @@
+
+# --- mains isolation (hand-added, outside Copper's managed block) ---
+(rule "Mains to low-voltage 3 mm"
+	(condition "(A.NetName == '/AC_L' || A.NetName == '/AC_N' || A.NetName == '/AC_L_IN') && !(B.NetName == '/AC_L' || B.NetName == '/AC_N' || B.NetName == '/AC_L_IN')")
+	(constraint clearance (min 3mm)))
+
+(rule "Mains L to N 2 mm"
+	(condition "(A.NetName == '/AC_L' || A.NetName == '/AC_N' || A.NetName == '/AC_L_IN') && (B.NetName == '/AC_L' || B.NetName == '/AC_N' || B.NetName == '/AC_L_IN') && A.Net != B.Net")
+	(constraint clearance (min 2mm)))

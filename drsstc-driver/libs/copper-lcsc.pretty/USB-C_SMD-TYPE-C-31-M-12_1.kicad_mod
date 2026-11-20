@@ -1,0 +1,303 @@
+(footprint "USB-C_SMD-TYPE-C-31-M-12_1"
+	(version 20241229)
+	(generator "copper_kicad")
+	(generator_version "1.0")
+	(layer "F.Cu")
+	(descr "TYPE-C-31-M-12 (C165948) SMD — -30℃~+80℃ 1 10,000 cycles 16P 20V 5A 7.35mm Female Surface Mount, Right Angle Type-C SMD USB Connectors ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:d556fcebb18d4647a249a7d49ea0c41d")
+	(tags "C165948 TYPE-C-31-M-12 LCSC JLCPCB")
+	(property "Reference" "REF**"
+		(at 0 -4.18 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB-C_SMD-TYPE-C-31-M-12_1"
+		(at 0 6.15 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TYPE-C-31-M-12 (C165948) SMD — -30℃~+80℃ 1 10,000 cycles 16P 20V 5A 7.35mm Female Surface Mount, Right Angle Type-C SMD USB Connectors ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:d556fcebb18d4647a249a7d49ea0c41d"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 4.475 -2.756)
+		(end 4.525 -2.756)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center 2.8999 -1.2056)
+		(end 3.0249 -1.2056)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+	)
+	(fp_circle
+		(center -2.8999 -1.2056)
+		(end -2.7749 -1.2056)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+	)
+	(fp_poly
+		(pts
+			(xy -4.47 5.0939)
+			(xy -4.47 -2.2561)
+			(xy 4.47 -2.2561)
+			(xy 4.47 5.0939)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -4.469 1.3757)
+		(end -4.469 -0.4872)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 4.471 5.0941)
+		(end -4.469 5.0941)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -4.469 5.0941)
+		(end -4.469 3.6128)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 4.471 1.3761)
+		(end 4.471 -0.4876)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 4.471 5.0941)
+		(end 4.471 3.6124)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start -5.18 -3.38)
+		(end 5.18 5.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 4.3251 -1.7057)
+		(size 1.2 2)
+		(drill oval 0.8 1.5)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "2" thru_hole oval
+		(at 4.3251 2.4741)
+		(size 1.2 1.8)
+		(drill oval 0.8 1.2)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "3" thru_hole oval
+		(at -4.3251 2.4741)
+		(size 1.2 1.8)
+		(drill oval 0.8 1.2)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "4" thru_hole oval
+		(at -4.3251 -1.7057)
+		(size 1.2 2)
+		(drill oval 0.8 1.5)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "A1B12" smd custom
+		(at -3.1999 -2.4741)
+		(size 0.24 0.24)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.2999 0.6499)
+					(xy 0.2999 -0.6501)
+					(xy -0.0001 -0.6501)
+					(xy -0.3001 -0.6499)
+					(xy -0.3001 0.6501)
+					(xy -0.0001 0.6501)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad "A4B9" smd custom
+		(at -2.4 -2.4741)
+		(size 0.24 0.24)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.3001 0.65)
+					(xy 0.3001 -0.6499)
+					(xy 0.0001 -0.6499)
+					(xy -0.2999 -0.6499)
+					(xy -0.2999 0.6501)
+					(xy 0.0001 0.6501)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad "A5" smd rect
+		(at -1.2499 -2.4741)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "A6" smd rect
+		(at -0.2499 -2.4741)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "A7" smd rect
+		(at 0.2499 -2.4741)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "A8" smd rect
+		(at 1.2497 -2.4741)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "B1A12" smd rect
+		(at 3.2 -2.4741)
+		(size 0.6002 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "B4A9" smd rect
+		(at 2.4002 -2.4741)
+		(size 0.6002 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "B5" smd rect
+		(at 1.7501 -2.4741)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "B6" smd rect
+		(at 0.7501 -2.4741)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "B7" smd rect
+		(at -0.7501 -2.4741)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "B8" smd rect
+		(at -1.7501 -2.4741)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.8999 -1.2056)
+		(size 0.6 0.6)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.8999 -1.2056)
+		(size 0.6 0.6)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+	)
+	(model "${KIPRJMOD}/libs/copper-lcsc.3dshapes/USB-C_SMD-TYPE-C-31-M-12_1.step"
+		(offset
+			(xyz 0 -2.45 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)

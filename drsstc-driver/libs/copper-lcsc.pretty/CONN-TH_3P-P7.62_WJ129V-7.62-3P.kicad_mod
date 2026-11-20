@@ -1,0 +1,607 @@
+(footprint "CONN-TH_3P-P7.62_WJ129V-7.62-3P"
+	(version 20241229)
+	(generator "copper_kicad")
+	(generator_version "1.0")
+	(layer "F.Cu")
+	(descr "WJ129V-7.62-3P (C36151) Plugin,P=7.62mm — -40℃~+105℃ 1 12~24 1x3P 2.5 20A 3 300V 3P 7.62mm Green Through Hole 插件,P=7.62mm Screw Terminal Blocks ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:d1a9f46aa1b84b4aad8aaa915d333061")
+	(tags "C36151 WJ129V-7.62-3P LCSC JLCPCB")
+	(property "Reference" "REF**"
+		(at 0 -5.56 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-TH_3P-P7.62_WJ129V-7.62-3P"
+		(at 0 7.05 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "WJ129V-7.62-3P (C36151) Plugin,P=7.62mm — -40℃~+105℃ 1 12~24 1x3P 2.5 20A 3 300V 3P 7.62mm Green Through Hole 插件,P=7.62mm Screw Terminal Blocks ROHS | Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ , https://easyeda.com) — converted locally by Copper for KiCad | easyeda:d1a9f46aa1b84b4aad8aaa915d333061"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 12.1399 -4.6274)
+		(end 12.1899 -4.6274)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+	)
+	(fp_poly
+		(pts
+			(xy -11.4303 -4.5003)
+			(xy 11.4297 -4.5003)
+			(xy 11.4297 5.9997)
+			(xy -11.4303 5.9997)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 6.7405 -3.96)
+		(end 6.7405 -2.5299)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 6.7405 -2.5299)
+		(end 8.4605 -2.5299)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 8.4605 -2.5299)
+		(end 8.4605 -3.98)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -0.8398 -3.92)
+		(end -0.8398 -2.4899)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -0.8398 -2.4899)
+		(end 0.8801 -2.4899)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.8801 -2.4899)
+		(end 0.8801 -3.94)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -8.43 -3.97)
+		(end -8.43 -2.54)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -8.43 -2.54)
+		(end -6.71 -2.54)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -6.71 -2.54)
+		(end -6.71 -3.99)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 6.8345 4.6987)
+		(end 6.8345 5.0128)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 6.8345 5.0128)
+		(end 8.4052 5.0128)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 8.4052 5.0128)
+		(end 8.4052 4.6987)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 8.8537 5.9997)
+		(end 8.8537 4.6987)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 8.8537 4.6987)
+		(end 6.3856 4.6987)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 6.3856 4.6987)
+		(end 6.3856 5.9997)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -6.8353 4.6987)
+		(end -6.8353 5.0128)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -6.8353 5.0128)
+		(end -8.406 5.0128)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -8.406 5.0128)
+		(end -8.406 4.6987)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -8.8544 5.9997)
+		(end -8.8544 4.6987)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -8.8544 4.6987)
+		(end -6.3863 4.6987)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -6.3863 4.6987)
+		(end -6.3863 5.9997)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.7847 4.6987)
+		(end 0.7847 5.0128)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.7847 5.0128)
+		(end -0.786 5.0128)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -0.786 5.0128)
+		(end -0.786 4.6987)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.2344 5.9997)
+		(end -1.2344 4.6987)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.2344 4.6987)
+		(end 1.2337 4.6987)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.2337 4.6987)
+		(end 1.2337 5.9997)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 11.4297 2.7019)
+		(end 10.8234 2.4775)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 10.8234 2.4775)
+		(end 10.8234 3.5545)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 10.8234 3.5545)
+		(end 11.4297 3.3524)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -11.4303 2.7019)
+		(end -12.0361 2.4775)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -12.0361 2.4775)
+		(end -12.0361 3.5545)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -12.0361 3.5545)
+		(end -11.4303 3.3524)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -11.4303 3.9358)
+		(end 11.4297 3.9358)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 11.4297 -1.9426)
+		(end -11.4303 -1.9426)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -11.4303 -4.5003)
+		(end -11.4303 5.9997)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -11.4303 5.9997)
+		(end 11.4297 5.9997)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 11.4297 5.9997)
+		(end 11.4297 -4.5003)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 11.4297 -4.5003)
+		(end 11.4297 -3.3337)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 12.013 -2.4811)
+		(end 11.4297 -2.6832)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 11.4297 -2.6832)
+		(end 11.4297 -3.3337)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 11.4297 -3.3337)
+		(end 12.013 -3.5581)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 12.013 -3.5581)
+		(end 12.013 -2.4811)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 11.4297 -4.5003)
+		(end -11.4303 -4.5003)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_poly
+		(pts
+			(xy -7.66 -3.97)
+			(xy -7.52 -3.97)
+			(xy -7.52 -3.09)
+			(xy -7.66 -3.09)
+			(xy -7.66 -3.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+	)
+	(fp_poly
+		(pts
+			(xy -7.77 -3.14)
+			(xy -7.41 -3.14)
+			(xy -7.59 -2.9)
+			(xy -7.6 -2.89)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+	)
+	(fp_poly
+		(pts
+			(xy -0.1799 -3.09)
+			(xy 0.1801 -3.09)
+			(xy 0.0001 -2.85)
+			(xy -0.0099 -2.84)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+	)
+	(fp_poly
+		(pts
+			(xy -0.0699 -3.92)
+			(xy 0.0702 -3.92)
+			(xy 0.0702 -3.04)
+			(xy -0.0699 -3.04)
+			(xy -0.0699 -3.05)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+	)
+	(fp_poly
+		(pts
+			(xy 7.4004 -3.13)
+			(xy 7.7605 -3.13)
+			(xy 7.5805 -2.89)
+			(xy 7.5705 -2.88)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+	)
+	(fp_poly
+		(pts
+			(xy 7.5105 -3.96)
+			(xy 7.6505 -3.96)
+			(xy 7.6505 -3.08)
+			(xy 7.5105 -3.08)
+			(xy 7.5105 -3.09)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+	)
+	(fp_rect
+		(start -12.29 -4.76)
+		(end 12.27 6.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 7.62 -0.0001)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -0.0001)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "3" thru_hole circle
+		(at -7.62 -0.0001)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+	)
+	(model "${KIPRJMOD}/libs/copper-lcsc.3dshapes/CONN-TH_3P-P7.62_WJ129V-7.62-3P.step"
+		(offset
+			(xyz -11.442 -0.65 9.1377)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
